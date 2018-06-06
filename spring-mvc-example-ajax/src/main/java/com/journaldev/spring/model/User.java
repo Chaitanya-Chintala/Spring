@@ -1,22 +1,30 @@
 package com.journaldev.spring.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="myusers")
 public class User {
-	private String userName;
-	private String fruit;
+	private String username;
+	private String password;
 
-	public String getFruit() {
-		return fruit;
-	}
-
-	public void setFruit(String fruit) {
-		this.fruit = fruit;
-	}
-
+	
 	public String getUserName() {
-		return userName;
+		return username;
 	}
 
 	public void setUserName(String userName) {
-		this.userName = userName;
+		this.username = userName;
 	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	
+	
 }

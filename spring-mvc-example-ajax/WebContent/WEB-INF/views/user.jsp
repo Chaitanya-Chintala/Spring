@@ -7,7 +7,7 @@
 <title>User Home Page</title>
 </head>
 <body>
-	<h3>Selected value is ${fruit}</h3>
+	<h3>The User is ${message}</h3>
 	
 </body>
 </html>
